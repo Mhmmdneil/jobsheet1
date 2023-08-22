@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T01:58:07.205Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="21.6.8" etag="230VQqznUpqlSVNJCqGT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T02:40:51.433Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="o4QllHtiI65Zh4DfWh0g" version="21.6.8" type="github">
   <diagram name="Page-1" id="u4uDCLMYq_5bYv94T9LH">
-    <mxGraphModel>
+    <mxGraphModel dx="1058" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=5" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="485" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-1" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-5" value="tebak angka" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-9" value="&lt;div&gt;player 1&lt;/div&gt;&lt;div&gt;(komputer)&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry y="100" width="135" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-10" value="&lt;div&gt;player 2&lt;/div&gt;&lt;div&gt;(komputer)&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="135" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-14" value="random angka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="1C9X8QAiRxhgfS4oVWNk-5" target="1C9X8QAiRxhgfS4oVWNk-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="1C9X8QAiRxhgfS4oVWNk-9" target="1C9X8QAiRxhgfS4oVWNk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1C9X8QAiRxhgfS4oVWNk-27" value="&lt;div&gt;GAME TEBAK ANGKA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="250" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
